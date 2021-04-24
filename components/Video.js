@@ -11,7 +11,7 @@ import {
   Alert
 } from 'react-native'
 import VideoPlayer from 'react-native-video'
-import KeepAwake from 'react-native-keep-awake'
+import KeepAwake from '@unsw-gsbme/react-native-keep-awake'
 import Orientation from 'react-native-orientation'
 import Icons from 'react-native-vector-icons/MaterialIcons'
 import { Controls } from './'

@@ -14,17 +14,23 @@ This is a result of not merged pull requests and some modifications planned to b
 * Add your own logo and/or placeholder
 * Customise theme
 
+### MODIFIED BY yz1311
+* typescript support 
+* integrate Slider component to the lib
+* change react-native-keep-awake to @unsw-gsbme/react-native-keep-awake
+* reduce package size
+
 ## Install
 
 ```shell
-npm i -S react-native-rb-video-player
+npm i -S react-native-rb-video-player react-native-video @unsw-gsbme/react-native-keep-awake react-native-linear-gradient react-native-orientation react-native-vector-icons
 ```
 
 Then link
 
 ```shell
 react-native link react-native-video
-react-native link react-native-keep-awake
+react-native link @unsw-gsbme/react-native-keep-awake
 react-native link react-native-vector-icons
 react-native link react-native-orientation
 react-native link react-native-linear-gradient
@@ -35,7 +41,7 @@ react-native link react-native-linear-gradient
 ```jsx
 import React from 'react'
 import { AppRegistry, StyleSheet, View } from 'react-native'
-import Video from 'react-native-rb-video-player'
+import Video from '@yz1311/react-native-rb-video-player'
 
 const styles = StyleSheet.create({
   container: {

@@ -1,23 +1,13 @@
 {
-  "name": "react-native-rb-video-player",
-  "version": "1.0.1",
-  "dependencies": {
-    "react-native-keep-awake": "^4.0.0",
-    "react-native-linear-gradient": "^2.5.6",
-    "react-native-orientation": "^3.1.0",
-    "react-native-slider": "https://github.com/abbasfreestyle/react-native-slider.git",
-    "react-native-vector-icons": "^6.6.0"
-  },
-  "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-jest": "21.2.0",
-    "babel-preset-flow": "^6.23.0",
-    "babel-preset-react-native": "4.0.0",
-    "jest": "21.2.1",
-    "react-test-renderer": "16.8.3"
-  },
+  "name": "@yz1311/react-native-rb-video-player",
+  "version": "1.0.2",
   "description": "An updated, customisable React Native video player for Android and IOS based on AF-video-player from abbasfreestyle",
-  "homepage": "https://github.com/rbcorrea/react-native-rb-video-player#readme",
+  "main": "index.js",
+  "types": "types/index.d.ts",
+  "homepage": "https://github.com/yz1311/react-native-rb-video-player#readme",
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "react-component",
     "react-native",
@@ -39,10 +29,28 @@
     "email": "rodrigoxcorrea@gmail.com",
     "url": "https://github.com/rbcorrea"
   },
+  "devDependencies": {
+    "react": "16.9.0",
+    "react-native": "0.63.4",
+    "babel-cli": "^6.26.0",
+    "babel-jest": "21.2.0",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-react-native": "4.0.0",
+    "@unsw-gsbme/react-native-keep-awake": "^1.0.4",
+    "jest": "21.2.1",
+    "react-native-linear-gradient": "^2.5.6",
+    "react-native-orientation": "^3.1.0",
+    "react-native-vector-icons": "^6.6.0",
+    "react-test-renderer": "16.8.3"
+  },
   "peerDependencies": {
+    "@unsw-gsbme/react-native-keep-awake": "^1.0.4",
     "prop-types": "*",
     "react": "*",
     "react-native": "*",
+    "react-native-linear-gradient": "^2.5.6",
+    "react-native-orientation": "^3.1.0",
+    "react-native-vector-icons": "^6.6.0",
     "react-native-video": "*"
   }
 }
