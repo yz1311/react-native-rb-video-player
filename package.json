@@ -1,6 +1,6 @@
 {
   "name": "@yz1311/react-native-rb-video-player",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "An updated, customisable React Native video player for Android and IOS based on AF-video-player from abbasfreestyle",
   "main": "index.js",
   "types": "types/index.d.ts",

@@ -14,7 +14,7 @@ import VideoPlayer from 'react-native-video'
 import {activate, deactivate} from '@unsw-gsbme/react-native-keep-awake'
 import Orientation from 'react-native-orientation'
 import Icons from 'react-native-vector-icons/MaterialIcons'
-import { Controls } from './'
+import { Controls } from './Controls'
 import { checkSource } from './utils'
 const Win = Dimensions.get('window')
 const backgroundColor = '#000'
